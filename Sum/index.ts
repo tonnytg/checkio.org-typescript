@@ -5,7 +5,6 @@ function sumNumbers(text: any ):Number {
     let Total: Number = 0;
     text.split(" ").forEach(element => {
         Number(element) ? Total = Number(Total) + Number(element) : null ;
-         ;
     });
     return Total
 };
